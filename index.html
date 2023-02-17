@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Document</title>
+</head>
+
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <div class="container">
+    <div class="header__wrapper">
+      <a class="header__logo" href="#">
+        <img
+          class="header__logo-img"
+          src="img/header-img/logo.svg"
+          alt="logo image"
+        />
+      </a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#partners">Partners</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#map">World map</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#aboutus">About us</a>
+          </li>
+          <li class="header__item item-nonmain">
+            <a class="header__link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__part" href="#">
+        <img src="img/header-img/dec.svg" alt="info img" />
+        <p class="header__part-text">Tlayen Extension</p>
+      </a>
+      <div class="header__mob-btn">
+        <span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+      <main class="main">
+        <section class="top">
+          <div class="container top__container">
+            <div class="top__wrapper">
+              <div class="top__box">
+                <h1 class="top__title">
+                  Find the Bullion actor you're looking for
+                </h1>
+                <p class="top__text text">
+                  Browse through a worldwide community of Bullion actors, all
+                  sharing interests in new opportunities, collaborations, and
+                  innovations. Let’s build new ways of working together.
+                </p>
+                <a class="top__link btn" href="#map">GO TO WORLD MAP</a>
+              </div>
+              <div class="top__image">
+                <picture>
+                  <source
+                    media="(max-width: 960px)"
+                    srcset="./img/top-img/bg-mob.png"
+                  />
+                  <img
+                    src="./img/top-img/bg.png"
+                    alt="social background image"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="partners" id="partners">
+          <div class="container partners__container">
+            <div class="partners__swiper">
+              <div class="partners__wrapper">
+                <div class="partners__slide">
+                  <img src="./img/partners-img/1.svg" alt="partners logo" />
+                </div>
+                <div class="partners__slide">
+                  <img src="./img/partners-img/2.svg" alt="partners logo" />
+                </div>
+                <div class="partners__slide">
+                  <img src="./img/partners-img/3.svg" alt="partners logo" />
+                </div>
+                <div class="partners__slide">
+                  <img src="./img/partners-img/4.svg" alt="partners logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="partnership">
+          <div class="container partnership__container">
+            <div class="partnership__wrapper">
+              <div class="partnership__box">
+                <h3 class="partnership__subtitle subtitle">PARTNERSHIP</h3>
+                <h2 class="partnership__title">
+                  Bullion network and Tlayen partnership
+                </h2>
+                <p class="partnership__text text">
+                  Tlayen is our close partner, with whom our websites, software,
+                  and operations as a whole are running.
+                </p>
+                <a class="partnership__link btn item-nonmain" href="#contact"
+                  >CONTACT US</a
+                >
+              </div>
+              <div class="partnership__image">
+                <img
+                  src="./img/partnership-img/bg.png"
+                  alt="partnership image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="find" id="map">
+          <div class="container">
+            <div class="find__wrapper">
+              <div class="find__box">
+                <h4 class="find__subtitle">WORLD MAP</h4>
+                <h3 class="find__title">Find people on the map</h3>
+                <p class="find__text">
+                  Browse through a worldwide community of Bullion actors, all
+                  sharing interests in new opportunities, collaborations, and
+                  innovations. Let’s build new ways of working together.
+                </p>
+              </div>
+              <div class="find__select-box">
+                <div class="find__select-inner">
+                  <select-pure class="find__select">
+                    <option-pure value="1" disabled>
+                      Choose continent
+                    </option-pure>
+                    <option-pure value="2"> continent1 </option-pure>
+                    <option-pure value="3"> continent2 </option-pure>
+                    <option-pure value="4"> continent3 </option-pure>
+                    <option-pure value="5"> continent4 </option-pure>
+                    <option-pure value="6"> continent5 </option-pure>
+                  </select-pure>
+                  <select-pure class="find__select">
+                    <option-pure value="1" disabled>
+                      Choose country
+                    </option-pure>
+                    <option-pure value="2"> country1 </option-pure>
+                    <option-pure value="3"> country2 </option-pure>
+                    <option-pure value="4"> country3 </option-pure>
+                    <option-pure value="5"> country4 </option-pure>
+                    <option-pure value="6"> country5 </option-pure>
+                  </select-pure>
+                  <select-pure class="find__select">
+                    <option-pure value="1" disabled> Choose actor </option-pure>
+                    <option-pure value="2"> actor1 </option-pure>
+                    <option-pure value="3"> actor2 </option-pure>
+                    <option-pure value="4"> actor3 </option-pure>
+                    <option-pure value="5"> actor4</option-pure>
+                    <option-pure value="6"> actor5 </option-pure>
+                  </select-pure>
+                  <select-pure class="find__select">
+                    <option-pure value="1" disabled>
+                      Choose product
+                    </option-pure>
+                    <option-pure value="2"> product1 </option-pure>
+                    <option-pure value="3"> product2 </option-pure>
+                    <option-pure value="4"> product3 </option-pure>
+                    <option-pure value="5"> product4 </option-pure>
+                    <option-pure value="6"> product5 </option-pure>
+                  </select-pure>
+                </div>
+                <button class="find__select-btn">Search</button>
+              </div>
+            </div>
+            <div class="find__image">
+              <img src="./img/find-img/bg.png" alt="map image" />
+            </div>
+            <div class="find-all">
+              <div class="find-all__box-text">
+                <h4 class="find-all__title">All in Bullion network</h4>
+                <span></span>
+              </div>
+              <div class="find-all__slider swiper">
+                <div class="find-all__items swiper-wrapper">
+                  <div class="find-all__slide swiper-slide">
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/1.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Emerson Curtis</div>
+                        <div class="find-all__country">Africa</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/1-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/2.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Marcus Dias</div>
+                        <div class="find-all__country">North America</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/2-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/3.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Emerson Curtis</div>
+                        <div class="find-all__country">Africa</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/1-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="find-all__slide swiper-slide">
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/4.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Marcus Dias</div>
+                        <div class="find-all__country">North America</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/2-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/5.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Marilyn Calzoni</div>
+                        <div class="find-all__country">Australia</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/3-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/6.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Hanna Mango</div>
+                        <div class="find-all__country">South America</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/4-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="find-all__slide swiper-slide">
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/7.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Marilyn Calzoni</div>
+                        <div class="find-all__country">Australia</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/3-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/8.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Hanna Mango</div>
+                        <div class="find-all__country">South America</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/4-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/9.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Jaylon Rosser</div>
+                        <div class="find-all__country">Europe</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/5-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="find-all__slide swiper-slide">
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/10.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Emerson Curtis</div>
+                        <div class="find-all__country">Africa</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/1-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/11.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Jaylon Rosser</div>
+                        <div class="find-all__country">Europe</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/5-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                    <div class="find-all__item">
+                      <div class="find-all__item-logo">
+                        <img src="./img/find-img/12.png" alt="logo person" />
+                      </div>
+                      <div class="find-all__box">
+                        <div class="find-all__name">Emerson Curtis</div>
+                        <div class="find-all__country">Africa</div>
+                      </div>
+                      <div class="find-all__item-gran">
+                        <img
+                          src="./img/find-img/1-1.png"
+                          alt="img person thing"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="aboutus">
+          <div class="container about__container">
+            <div class="about__wrapper">
+              <div class="about__box">
+                <h3 class="about__subtitle subtitle">ABOUT US</h3>
+                <h2 class="about__title">
+                  We’re a team of passionate developers, designers, and business
+                  men.
+                </h2>
+                <p class="about__text text">
+                  We’re a team of passionate developers, designers, and
+                  businessmen involved for years in the Bullion market. Always
+                  looking for ways to evolve the market and make it more known
+                  and profitable for all, we decided to create the first Bullion
+                  actors database. The main goal of the platform is to
+                  facilitate collaboration and sharing of information in,
+                  between and within the actors in the bullion market.
+                </p>
+                <a class="about__link btn" href="#"
+                  >LEARN MORE BULLION NETWORK</a
+                >
+              </div>
+              <div class="about__image">
+                <picture>
+                  <source
+                    media="(max-width: 440px)"
+                    srcset="img/about-img/bg-mob.png"
+                  />
+                  <img src="./img/about-img/bg.png" alt="about us image" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <div class="container">
+            <div class="contact__wrapper">
+              <div class="contact__item contact__item-main">
+                <div class="contact__item-inner contact__item-inner--bbnone">
+                  <div class="contact__item-subtitle">CONTACT US</div>
+                  <h4 class="contact__item-title">
+                    How would you love to contact us?
+                  </h4>
+                  <div class="contact__grids">
+                    <div class="contact__grids-item">Send message</div>
+                    <div class="contact__grids-item">Send email</div>
+                    <div class="contact__grids-item">Call us</div>
+                    <div class="contact__grids-item">Social media</div>
+                    <div class="contact__grids-item">Book an appointment</div>
+                  </div>
+                </div>
+              </div>
+              <!-- 1 -->
+              <div class="contact__item contact__item-hidden contact__item-1">
+                <div class="contact__item-inner">
+                  <div class="contact__item-wrapper">
+                    <h5
+                      class="contact__item-subtitle contact__item-subtitle--mob"
+                    >
+                      CONTACT US
+                    </h5>
+                    <h4 class="contact__item-title">Send us message</h4>
+                    <form action="#" class="contact__form">
+                      <input
+                        class="contact__form-input"
+                        type="text"
+                        placeholder="Enter your email"
+                      />
+                      <textarea
+                        class="contact__form-input contact__form-textarea"
+                        placeholder="Write message"
+                      ></textarea>
+                      <button class="contact__form-button">Send message</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="contact__footer">
+                  <div
+                    class="contact__footer-item contact__footer-item--target contact__footer-item-1"
+                  >
+                    Send message
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-2">
+                    Send email
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-3">
+                    Call us
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-4">
+                    Social media
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-5">
+                    Book an appointment
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="contact__item contact__item-hidden contact__item-2">
+                <div class="contact__item-inner">
+                  <div class="contact__item-wrapper">
+                    <h5
+                      class="contact__item-subtitle contact__item-subtitle--mob"
+                    >
+                      CONTACT US
+                    </h5>
+                    <h4 class="contact__item-title contact__item-title-mt">
+                      We open an email for you already!
+                    </h4>
+                  </div>
+                </div>
+                <div class="contact__footer">
+                  <div class="contact__footer-item contact__footer-item-1">
+                    Send message
+                  </div>
+                  <div
+                    class="contact__footer-item contact__footer-item-2 contact__footer-item--target"
+                  >
+                    Send email
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-3">
+                    Call us
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-4">
+                    Social media
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-5">
+                    Book an appointment
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="contact__item contact__item-hidden contact__item-3">
+                <div class="contact__item-inner">
+                  <div class="contact__item-wrapper">
+                    <h5
+                      class="contact__item-subtitle contact__item-subtitle--mob"
+                    >
+                      CONTACT US
+                    </h5>
+                    <h4 class="contact__item-title">Give us a call</h4>
+                    <div class="contact__copy-items">
+                      <div class="contact__copy-item">
+                        +381 123 123 123 123
+                        <svg
+                          width="16"
+                          height="18"
+                          viewBox="0 0 16 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.83333 3.99996V1.49996C3.83333 1.27895 3.92113 1.06698 4.07741 0.910704C4.23369 0.754423 4.44565 0.666626 4.66667 0.666626H14.6667C14.8877 0.666626 15.0996 0.754423 15.2559 0.910704C15.4122 1.06698 15.5 1.27895 15.5 1.49996V13.1666C15.5 13.3876 15.4122 13.5996 15.2559 13.7559C15.0996 13.9122 14.8877 14 14.6667 14H12.1667V16.5C12.1667 16.96 11.7917 17.3333 11.3275 17.3333H1.33917C1.22927 17.334 1.12033 17.3129 1.0186 17.2713C0.916873 17.2297 0.824361 17.1685 0.746382 17.091C0.668403 17.0136 0.606494 16.9215 0.564212 16.8201C0.52193 16.7186 0.500108 16.6099 0.5 16.5L0.5025 4.83329C0.5025 4.37329 0.8775 3.99996 1.34167 3.99996H3.83333ZM2.16917 5.66663L2.16667 15.6666H10.5V5.66663H2.16917ZM5.5 3.99996H12.1667V12.3333H13.8333V2.33329H5.5V3.99996Z"
+                            fill="#2A63ED"
+                          />
+                        </svg>
+                      </div>
+                      <div class="contact__copy-item">
+                        +381 123 123 123 123
+                        <svg
+                          width="16"
+                          height="18"
+                          viewBox="0 0 16 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.83333 3.99996V1.49996C3.83333 1.27895 3.92113 1.06698 4.07741 0.910704C4.23369 0.754423 4.44565 0.666626 4.66667 0.666626H14.6667C14.8877 0.666626 15.0996 0.754423 15.2559 0.910704C15.4122 1.06698 15.5 1.27895 15.5 1.49996V13.1666C15.5 13.3876 15.4122 13.5996 15.2559 13.7559C15.0996 13.9122 14.8877 14 14.6667 14H12.1667V16.5C12.1667 16.96 11.7917 17.3333 11.3275 17.3333H1.33917C1.22927 17.334 1.12033 17.3129 1.0186 17.2713C0.916873 17.2297 0.824361 17.1685 0.746382 17.091C0.668403 17.0136 0.606494 16.9215 0.564212 16.8201C0.52193 16.7186 0.500108 16.6099 0.5 16.5L0.5025 4.83329C0.5025 4.37329 0.8775 3.99996 1.34167 3.99996H3.83333ZM2.16917 5.66663L2.16667 15.6666H10.5V5.66663H2.16917ZM5.5 3.99996H12.1667V12.3333H13.8333V2.33329H5.5V3.99996Z"
+                            fill="#2A63ED"
+                          />
+                        </svg>
+                      </div>
+                      <div class="contact__copy-item">
+                        +381 123 123 123 123
+                        <svg
+                          width="16"
+                          height="18"
+                          viewBox="0 0 16 18"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M3.83333 3.99996V1.49996C3.83333 1.27895 3.92113 1.06698 4.07741 0.910704C4.23369 0.754423 4.44565 0.666626 4.66667 0.666626H14.6667C14.8877 0.666626 15.0996 0.754423 15.2559 0.910704C15.4122 1.06698 15.5 1.27895 15.5 1.49996V13.1666C15.5 13.3876 15.4122 13.5996 15.2559 13.7559C15.0996 13.9122 14.8877 14 14.6667 14H12.1667V16.5C12.1667 16.96 11.7917 17.3333 11.3275 17.3333H1.33917C1.22927 17.334 1.12033 17.3129 1.0186 17.2713C0.916873 17.2297 0.824361 17.1685 0.746382 17.091C0.668403 17.0136 0.606494 16.9215 0.564212 16.8201C0.52193 16.7186 0.500108 16.6099 0.5 16.5L0.5025 4.83329C0.5025 4.37329 0.8775 3.99996 1.34167 3.99996H3.83333ZM2.16917 5.66663L2.16667 15.6666H10.5V5.66663H2.16917ZM5.5 3.99996H12.1667V12.3333H13.8333V2.33329H5.5V3.99996Z"
+                            fill="#2A63ED"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__footer-slider">
+                  <div class="contact__footer">
+                    <div class="contact__footer-item contact__footer-item-1">
+                      Send message
+                    </div>
+                    <div class="contact__footer-item contact__footer-item-2">
+                      Send email
+                    </div>
+                    <div
+                      class="contact__footer-item contact__footer-item-3 contact__footer-item--target"
+                    >
+                      Call us
+                    </div>
+                    <div class="contact__footer-item contact__footer-item-4">
+                      Social media
+                    </div>
+                    <div class="contact__footer-item contact__footer-item-5">
+                      Book an appointment
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="contact__item contact__item-hidden contact__item-4">
+                <div class="contact__item-inner">
+                  <div class="contact__item-wrapper">
+                    <h5
+                      class="contact__item-subtitle contact__item-subtitle--mob"
+                    >
+                      CONTACT US
+                    </h5>
+                    <h4 class="contact__item-title">Social media</h4>
+                    <div class="contact__social">
+                      <div class="contact__social-item">
+                        <img
+                          src="./img/contact-img/socials/1.svg"
+                          alt="instagram logo"
+                          class="contact__social-img"
+                        />
+                        <div class="contact__social-text">Instagram</div>
+                        <a class="contact__social-link" href="#"> Go to </a>
+                      </div>
+                      <div class="contact__social-item">
+                        <img
+                          src="./img/contact-img/socials/2.svg"
+                          alt="LinkedIn logo"
+                          class="contact__social-img"
+                        />
+                        <div class="contact__social-text">LinkedIn</div>
+                        <a class="contact__social-link" href="#"> Go to </a>
+                      </div>
+                      <div class="contact__social-item">
+                        <img
+                          src="./img/contact-img/socials/3.svg"
+                          alt="facebook logo"
+                          class="contact__social-img"
+                        />
+                        <div class="contact__social-text">Facebook</div>
+                        <a class="contact__social-link" href="#"> Go to </a>
+                      </div>
+                      <div class="contact__social-item">
+                        <img
+                          src="./img/contact-img/socials/4.svg"
+                          alt="twitter logo"
+                          class="contact__social-img"
+                        />
+                        <div class="contact__social-text">Twitter</div>
+                        <a class="contact__social-link" href="#"> Go to </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__footer">
+                  <div class="contact__footer-item contact__footer-item-1">
+                    Send message
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-2">
+                    Send email
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-3">
+                    Call us
+                  </div>
+                  <div
+                    class="contact__footer-item contact__footer-item-4 contact__footer-item--target"
+                  >
+                    Social media
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-5">
+                    Book an appointment
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="contact__item contact__item-hidden contact__item-5">
+                <div class="contact__item-inner">
+                  <div class="contact__item-wrapper">
+                    <h5
+                      class="contact__item-subtitle contact__item-subtitle--mob"
+                    >
+                      CONTACT US
+                    </h5>
+                    <h4 class="contact__item-title">Book an appointment</h4>
+                    <div class="contact__calendar-inner">
+                      <div class="contact__calendar"></div>
+                      <div class="contact__calendar-times">
+                        <div class="contact__calendar-time-title">
+                          Select time
+                        </div>
+                        <div class="contact__calendar-time">09:00 AM</div>
+                        <div class="contact__calendar-time">10:00 AM</div>
+                        <div class="contact__calendar-time">11:00 AM</div>
+                        <div class="contact__calendar-time">11:00 AM</div>
+                        <div class="contact__calendar-time">11:00 AM</div>
+                      </div>
+                      <a class="contact__calendar-btn" href="#">
+                        Schedule appointment
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__footer">
+                  <div class="contact__footer-item contact__footer-item-1">
+                    Send message
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-2">
+                    Send email
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-3">
+                    Call us
+                  </div>
+                  <div class="contact__footer-item contact__footer-item-4">
+                    Social media
+                  </div>
+                  <div
+                    class="contact__footer-item contact__footer-item-5 contact__footer-item--target"
+                  >
+                    Book an appointment
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="footer__box">
+        <a class="footer__logo" href="#">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="img/footer-img/mob-logo.svg"
+            />
+            <img src="img/footer-img/logo.svg" alt="logo image" />
+          </picture>
+        </a>
+        <p class="footer__text">
+          Browse through a worldwide community of Bullion actors, all sharing
+          interests in new opportunities, collaborations, and innovations. Let’s
+          build new ways of working together.
+        </p>
+      </div>
+      <nav class="footer__nav">
+        <div class="footer__nav-inner">
+          <div class="footer__nav-title">SITEMAP</div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#partners">Partners</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#map">World map</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#aboutus">About us</a>
+            </li>
+            <li class="footer__item item-nonmain">
+              <a class="footer__link" href="#contact">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__nav-inner">
+          <div class="footer__nav-title">SOCIAL MEDIA</div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">LinkedIn</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Facebook</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Twitter</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="copy">
+    <div class="container">
+      <div class="copy__text">All right reserved Bullion Network DAO</div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
